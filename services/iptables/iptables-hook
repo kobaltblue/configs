@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+# ifupdown: /etc/network/if-pre-up.d/iptables-hook
+
+iptables-restore < /path/to/rules.v4
+ip6tables-restore < /path/to/rules.v6
